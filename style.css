@@ -1,0 +1,96 @@
+body {
+	font-family: Arial;
+}
+
+#container {
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+.generate,.hiragana-bn {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+	margin-bottom: 20px;
+}
+.generate:hover,
+.hiragana-bn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+.generate:active {
+	position:relative;
+	top:1px;
+}
+
+.hiragana-bn {
+	margin-right: 10px;
+}
+
+.score {
+
+	font-size: 16px;
+    padding: 8px;
+    color: #fff;
+    background: #A1D490;
+    margin-left: 18px;
+    border:1px solid #000;
+}
+
+
+.item {
+	border:1px solid #000;
+	width:100px;
+	height: 100px;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px; 
+}
+
+.item.success {
+	background: #A1D490;
+}
+.item.error {
+	background: #ea9c8a;
+}
+
+.item .show {
+	font-size: 40px;
+	text-align: center;
+}
+
+.item input {
+	margin-left: 3%;
+    height: 44px;
+    width: 90%;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #000;
+}
